@@ -1,2 +1,7 @@
+from rich.console import Console
+
+
 def main() -> None:
-    print("Hello from tkgh001!")
+    console = Console(soft_wrap=True, emoji=False, highlight=False)
+
+    console.print("[green]Hello from [bold]tkgh001[/bold]![/green]")
